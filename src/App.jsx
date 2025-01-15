@@ -1,7 +1,10 @@
 import React from "react";
-
+import NavbarMain from "./components/navbar/NavbarMain";
 function App() {
-  return <div className="text-red-600">Hello world</div>;
+  return (
+    <main className="font-body">
+      <NavbarMain />
+    </main>
+  );
 }
-
 export default App;
