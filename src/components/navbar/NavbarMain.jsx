@@ -10,7 +10,7 @@ function NavbarMain() {
   }
   return (
     <nav className=" max-w-[1300px] w-full mx-auto fixed left-[50%] -translate-x-[50%] z-20 flex gap-4 mt-2 ">
-      <div className="flex justify-between w-full max-w-[1200px] mx-auto  bg-black items-center px-6 py-5 rounded-r-full rounded-l-full border-orange border-[0.7px]">
+      <div className="flex justify-between w-full max-w-[1200px] mx-auto  bg-black items-center px-6 py-5 rounded-r-full rounded-l-full border-orange border-[0.7px] shadow-cyanShadow">
         <NavbarLogo />
         <div className={`${menuOpen ? "sm:block" : "sm:hidden"} lg:block`}>
           <NavbarLinks />
