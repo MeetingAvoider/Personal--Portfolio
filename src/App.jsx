@@ -1,12 +1,15 @@
 import NavbarMain from "./components/navbar/NavbarMain";
 import HeroMain from "./components/heroSection/heroMain";
-import SubHero from "./components/heroSection/subHeroSection";
+import AboutMeMain from "./components/aboutMeSections/aboutMeMain";
+import HelperSection from "./components/helperSection/helper";
+
 function App() {
   return (
-    <main className="font-body flex flex-row ">
+    <main className="font-body flex flex-col ">
       <NavbarMain />
       <HeroMain />
-      <SubHero />
+      <AboutMeMain />
+      <HelperSection />
     </main>
   );
 }
